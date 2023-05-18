@@ -1,0 +1,591 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BUpload" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="GActionDesc" xml:space="preserve">
+    <value>Request Type</value>
+  </data>
+  <data name="GAVName" xml:space="preserve">
+    <value>AVName</value>
+  </data>
+  <data name="GDateAction" xml:space="preserve">
+    <value>Date Proceed</value>
+  </data>
+  <data name="GFileName" xml:space="preserve">
+    <value>File Name</value>
+  </data>
+  <data name="GReport" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="GResult" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="GTOOLReport" xml:space="preserve">
+    <value>Click to view the report</value>
+  </data>
+  <data name="L1Default" xml:space="preserve">
+    <value>Credit Scoring</value>
+  </data>
+  <data name="LAVName" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="LFileName" xml:space="preserve">
+    <value>File to search</value>
+  </data>
+  <data name="PHeader" xml:space="preserve">
+    <value>Member Page</value>
+  </data>
+  <data name="PHeaderReport" xml:space="preserve">
+    <value>File Report Page</value>
+  </data>
+  <data name="SMessageStatus" xml:space="preserve">
+    <value>Upload status:</value>
+  </data>
+  <data name="SMsgMember1" xml:space="preserve">
+    <value>You can proceed to assess your file.</value>
+  </data>
+  <data name="SWelcome" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="TextDirection" xml:space="preserve">
+    <value>LTR</value>
+  </data>
+  <data name="ChkFileMsg01" xml:space="preserve">
+    <value>You don't have any scoring history </value>
+  </data>
+  <data name="ChkFileMsg02" xml:space="preserve">
+    <value>Number of files already assessed :</value>
+  </data>
+  <data name="CUARMessage" xml:space="preserve">
+    <value>Answer security is required</value>
+  </data>
+  <data name="CUBCancelText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CUBFinish" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="CUBText" xml:space="preserve">
+    <value>Create User</value>
+  </data>
+  <data name="CUCompleteSuccess" xml:space="preserve">
+    <value>User created successfully</value>
+  </data>
+  <data name="CUContinueButton" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="CUDEmailMessage" xml:space="preserve">
+    <value>Email is duplicated</value>
+  </data>
+  <data name="CUEmail" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="CUHeader" xml:space="preserve">
+    <value>Sign up your user account</value>
+  </data>
+  <data name="CUInstruction" xml:space="preserve">
+    <value>Sign up for your new account</value>
+  </data>
+  <data name="CULAnswer" xml:space="preserve">
+    <value>Answer Security</value>
+  </data>
+  <data name="CULQuestion" xml:space="preserve">
+    <value>Question Security</value>
+  </data>
+  <data name="CUQRMessage" xml:space="preserve">
+    <value>Question security is required</value>
+  </data>
+  <data name="LBText" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="LLConfirmPass" xml:space="preserve">
+    <value>Confirm Password</value>
+  </data>
+  <data name="LLName" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="LLPass" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="LLRemember" xml:space="preserve">
+    <value>Remember me next time</value>
+  </data>
+  <data name="LLTitle" xml:space="preserve">
+    <value>LOGIN</value>
+  </data>
+  <data name="BTAssignRoles" xml:space="preserve">
+    <value>Assign Role To Users</value>
+  </data>
+  <data name="BTCreateRole" xml:space="preserve">
+    <value>Create Role</value>
+  </data>
+  <data name="BTDeleteUsers" xml:space="preserve">
+    <value>Delete Users</value>
+  </data>
+  <data name="BTReassessText" xml:space="preserve">
+    <value>Reassess</value>
+  </data>
+  <data name="BTRemoveRoles" xml:space="preserve">
+    <value>Remove Users from Role</value>
+  </data>
+  <data name="BTUploadText" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="HLViewResult" xml:space="preserve">
+    <value>View Last Result</value>
+  </data>
+  <data name="LMsgWelcome" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="PHeaderData" xml:space="preserve">
+    <value>Base Data Entry</value>
+  </data>
+  <data name="PHeaderRole" xml:space="preserve">
+    <value>Role Management </value>
+  </data>
+  <data name="PHeaderUser" xml:space="preserve">
+    <value>User Management </value>
+  </data>
+  <data name="SMsgMember2" xml:space="preserve">
+    <value>This file has been already analyzed. If you want to see the last analyze result</value>
+  </data>
+  <data name="L1_1Default" xml:space="preserve">
+    <value>Credit Scoring is a powerful tool to decreases the risk in the Bank.</value>
+  </data>
+  <data name="L2Default" xml:space="preserve">
+    <value>Getting started</value>
+  </data>
+  <data name="L2_1Default" xml:space="preserve">
+    <value>In order to assess your customers you have to login.</value>
+  </data>
+  <data name="L3Default" xml:space="preserve">
+    <value>Get more results</value>
+  </data>
+  <data name="L3_1Default" xml:space="preserve">
+    <value>Credit Scoring software gives you the ability to score clients either through data mining algorithms or judgemental ones</value>
+  </data>
+  <data name="L4Default" xml:space="preserve">
+    <value>Better solutions</value>
+  </data>
+  <data name="L4_1Default" xml:space="preserve">
+    <value>As a Customer you can login and upload your documents and get faster response to your request</value>
+  </data>
+  <data name="L5Default" xml:space="preserve">
+    <value>Learn more</value>
+  </data>
+  <data name="MenuAbout" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="MenuAdmin" xml:space="preserve">
+    <value>Administration</value>
+  </data>
+  <data name="MenuAssess" xml:space="preserve">
+    <value>Assess</value>
+  </data>
+  <data name="MenuContact" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="MenuHome" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="MenuLogin" xml:space="preserve">
+    <value>Log In</value>
+  </data>
+  <data name="MenuRegister" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="ProgName" xml:space="preserve">
+    <value>Alps Credit Scoring</value>
+  </data>
+  <data name="GDetectType" xml:space="preserve">
+    <value>Detect Type</value>
+  </data>
+  <data name="GMalwareName" xml:space="preserve">
+    <value>Malware</value>
+  </data>
+  <data name="MenuLogout" xml:space="preserve">
+    <value>Log Off</value>
+  </data>
+  <data name="SMsgHello" xml:space="preserve">
+    <value>Hello</value>
+  </data>
+  <data name="MenuMain1" xml:space="preserve">
+    <value>Retail </value>
+  </data>
+  <data name="MenuMain2" xml:space="preserve">
+    <value>Buisness</value>
+  </data>
+  <data name="MenuMain3" xml:space="preserve">
+    <value>Assessments</value>
+  </data>
+  <data name="MenuMain4" xml:space="preserve">
+    <value>Transfer Data</value>
+  </data>
+  <data name="MenuMain5" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="MenuMain6" xml:space="preserve">
+    <value>User Management</value>
+  </data>
+  <data name="MenuMain7" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="SubMenu11" xml:space="preserve">
+    <value>Search Retail</value>
+  </data>
+  <data name="SubMenu12" xml:space="preserve">
+    <value>Edit Retail</value>
+  </data>
+  <data name="SubMenu13" xml:space="preserve">
+    <value>New Retail</value>
+  </data>
+  <data name="SubMenu15" xml:space="preserve">
+    <value>Register Retail Loan</value>
+  </data>
+  <data name="SubMenu21" xml:space="preserve">
+    <value>Search Buisness</value>
+  </data>
+  <data name="SubMenu22" xml:space="preserve">
+    <value>Edit Buisness</value>
+  </data>
+  <data name="SubMenu23" xml:space="preserve">
+    <value>New Buisness</value>
+  </data>
+  <data name="SubMenu24" xml:space="preserve">
+    <value>Buisness Scoring</value>
+  </data>
+  <data name="SubMenu25" xml:space="preserve">
+    <value>Register Buisness Loan</value>
+  </data>
+  <data name="SubMenu41" xml:space="preserve">
+    <value>Previous Customers Data</value>
+  </data>
+  <data name="SubMenu42" xml:space="preserve">
+    <value>Bulk Assessment</value>
+  </data>
+  <data name="SubMenu51" xml:space="preserve">
+    <value>Deposit Report</value>
+  </data>
+  <data name="SubMenu52" xml:space="preserve">
+    <value>Loan Report</value>
+  </data>
+  <data name="SubMenu61" xml:space="preserve">
+    <value>New User</value>
+  </data>
+  <data name="SubMenu62" xml:space="preserve">
+    <value>Delete User</value>
+  </data>
+  <data name="SubMenu63" xml:space="preserve">
+    <value>Profile Management</value>
+  </data>
+  <data name="SubMenu64" xml:space="preserve">
+    <value>User Groups Management</value>
+  </data>
+  <data name="SubMenu65" xml:space="preserve">
+    <value>New Group</value>
+  </data>
+  <data name="SubMenu66" xml:space="preserve">
+    <value>Delete Group</value>
+  </data>
+  <data name="SubMenu67" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="SubMenu68" xml:space="preserve">
+    <value>Access Right</value>
+  </data>
+  <data name="SubMenu69" xml:space="preserve">
+    <value>What is PD?</value>
+  </data>
+  <data name="SubMenu70" xml:space="preserve">
+    <value>How to Calculate PD</value>
+  </data>
+  <data name="SubMenu14" xml:space="preserve">
+    <value>Retail Scoring</value>
+  </data>
+  <data name="SubMenu31" xml:space="preserve">
+    <value>Records of Scores</value>
+  </data>
+  <data name="SubMenu32" xml:space="preserve">
+    <value>Printed Scoring Forms</value>
+  </data>
+  <data name="PRetailSearchFooter" xml:space="preserve">
+    <value>To Continue Select the Retail Record by Clicking on it</value>
+  </data>
+  <data name="PRetailSearchHeader" xml:space="preserve">
+    <value>Retail Search Results</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="PCorpSearchFooter" xml:space="preserve">
+    <value>To Continue Select a Corporate Record by Clicking on "Select" </value>
+  </data>
+  <data name="PCorpSearchHeader" xml:space="preserve">
+    <value>Corporate Search Results</value>
+  </data>
+  <data name="AboutTitle" xml:space="preserve">
+    <value>Text About Credit Section in the Bank and evantually the software company</value>
+  </data>
+  <data name="SelectGridText" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="RegisterNew" xml:space="preserve">
+    <value>Register as a new user</value>
+  </data>
+  <data name="AnswerRequired" xml:space="preserve">
+    <value>Answer Security Required.</value>
+  </data>
+  <data name="AnswerSecurity" xml:space="preserve">
+    <value>Answer Security</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Confirm Password</value>
+  </data>
+  <data name="ConfirmPasswordRequired" xml:space="preserve">
+    <value>Confirm Password is required.</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="EmailRequired" xml:space="preserve">
+    <value>Email Required.</value>
+  </data>
+  <data name="PassWord" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="PasswordCompare" xml:space="preserve">
+    <value>The Password and Confirmation Password must match.</value>
+  </data>
+  <data name="PasswordRequired" xml:space="preserve">
+    <value>Password is required.</value>
+  </data>
+  <data name="QuestionRequired" xml:space="preserve">
+    <value>Question Security Required.</value>
+  </data>
+  <data name="QuestionSecurity" xml:space="preserve">
+    <value>QuestionSecurity</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="UserRequired" xml:space="preserve">
+    <value>User Name is required.</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CreateProfile" xml:space="preserve">
+    <value>Create New Profile</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="UserGroup" xml:space="preserve">
+    <value>User Group</value>
+  </data>
+  <data name="AccessLevel" xml:space="preserve">
+    <value>Access Level</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="DeleteMsg" xml:space="preserve">
+    <value>Do you confirm the Delete operation?</value>
+  </data>
+  <data name="OperationMsg" xml:space="preserve">
+    <value>Do you confirm the operation?</value>
+  </data>
+  <data name="Attention" xml:space="preserve">
+    <value>Attention!</value>
+  </data>
+  <data name="JudgmentMsg" xml:space="preserve">
+    <value>Judgmental scoring .</value>
+  </data>
+  <data name="MiningMsg" xml:space="preserve">
+    <value>Mining scoring.</value>
+  </data>
+  <data name="ResetMsg" xml:space="preserve">
+    <value>All fields will rest.</value>
+  </data>
+  <data name="TakeTimeMsg" xml:space="preserve">
+    <value>This operation could take a moment depending to the network load.</value>
+  </data>
+  <data name="UpdateMsg" xml:space="preserve">
+    <value>All information will be updated in the database.</value>
+  </data>
+  <data name="NewMsg" xml:space="preserve">
+    <value>A new record will be created.</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="Parameter" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="Score" xml:space="preserve">
+    <value>Score</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="EraseMsg" xml:space="preserve">
+    <value>Are you sure you want to delete this information from the database?</value>
+  </data>
+  <data name="InsertMsg" xml:space="preserve">
+    <value>Are you sure you want to save this information into the database? </value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="MenuClerk" xml:space="preserve">
+    <value>Clerk</value>
+  </data>
+  <data name="PHeaderClerk" xml:space="preserve">
+    <value>Clerk Page</value>
+  </data>
+  <data name="DenyMessage" xml:space="preserve">
+    <value>You dont have enough rights for this operation.</value>
+  </data>
+  <data name="ChooseUser" xml:space="preserve">
+    <value>You should enter a customer number</value>
+  </data>
+  <data name="SMsgDocs" xml:space="preserve">
+    <value>List of needed documents</value>
+  </data>
+  <data name="SMsgDocs1" xml:space="preserve">
+    <value>Upload each document and then check the related document</value>
+  </data>
+  <data name="SMsgDocs2" xml:space="preserve">
+    <value>Register &amp; Send Document</value>
+  </data>
+  <data name="JudgeAnalyze" xml:space="preserve">
+    <value>Judgement System</value>
+  </data>
+</root>

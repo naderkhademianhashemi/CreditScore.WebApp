@@ -1,0 +1,591 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BUpload" xml:space="preserve">
+    <value>بارگذاری</value>
+  </data>
+  <data name="GActionDesc" xml:space="preserve">
+    <value>نوع درخواست</value>
+  </data>
+  <data name="GAVName" xml:space="preserve">
+    <value>نام محصول</value>
+  </data>
+  <data name="GDateAction" xml:space="preserve">
+    <value>تاریخ بررسی</value>
+  </data>
+  <data name="GFileName" xml:space="preserve">
+    <value>نام فایل</value>
+  </data>
+  <data name="GReport" xml:space="preserve">
+    <value>گزارش</value>
+  </data>
+  <data name="GResult" xml:space="preserve">
+    <value>نتیجه بررسی</value>
+  </data>
+  <data name="GTOOLReport" xml:space="preserve">
+    <value>برای دیدن گزارش کلیک کنید</value>
+  </data>
+  <data name="L1Default" xml:space="preserve">
+    <value>اعتبار سنجی مشتریان</value>
+  </data>
+  <data name="LAVName" xml:space="preserve">
+    <value>نام آنتی ویروس</value>
+  </data>
+  <data name="LFileName" xml:space="preserve">
+    <value>فایل مورد جستجو</value>
+  </data>
+  <data name="PHeader" xml:space="preserve">
+    <value>صفحه اعضاء</value>
+  </data>
+  <data name="PHeaderReport" xml:space="preserve">
+    <value>گزارش بررسی پرونده</value>
+  </data>
+  <data name="SMessageStatus" xml:space="preserve">
+    <value>وضعیت بارگذاری</value>
+  </data>
+  <data name="SMsgMember1" xml:space="preserve">
+    <value>فایل مورد نظر خود را انتخاب نمایید.</value>
+  </data>
+  <data name="SWelcome" xml:space="preserve">
+    <value>خوش آمدید</value>
+  </data>
+  <data name="TextDirection" xml:space="preserve">
+    <value>RTL</value>
+  </data>
+  <data name="ChkFileMsg01" xml:space="preserve">
+    <value>هیچ سابقه اعتبارسنجی برای شما ثبت نشده است</value>
+  </data>
+  <data name="ChkFileMsg02" xml:space="preserve">
+    <value>تعداد فایل های بارگذاری شده :</value>
+  </data>
+  <data name="CUARMessage" xml:space="preserve">
+    <value>ورود جواب یادآوری الزامی است</value>
+  </data>
+  <data name="CUBCancelText" xml:space="preserve">
+    <value>صرفنظر</value>
+  </data>
+  <data name="CUBFinish" xml:space="preserve">
+    <value>پایان</value>
+  </data>
+  <data name="CUBText" xml:space="preserve">
+    <value>ایجاد کاربر</value>
+  </data>
+  <data name="CUCompleteSuccess" xml:space="preserve">
+    <value>کاربر با موفقیت ایجاد گردید</value>
+  </data>
+  <data name="CUContinueButton" xml:space="preserve">
+    <value>بعدی</value>
+  </data>
+  <data name="CUDEmailMessage" xml:space="preserve">
+    <value>آدرس پست الکترونیکی وجود دارد</value>
+  </data>
+  <data name="CUEmail" xml:space="preserve">
+    <value>پست الکترونیکی</value>
+  </data>
+  <data name="CUHeader" xml:space="preserve">
+    <value>ایجاد کاربر جدید</value>
+  </data>
+  <data name="CUInstruction" xml:space="preserve">
+    <value>با ورود اطلاعات یک کاربر جدید ایجاد کنید</value>
+  </data>
+  <data name="CULAnswer" xml:space="preserve">
+    <value>جواب یادآوری</value>
+  </data>
+  <data name="CULQuestion" xml:space="preserve">
+    <value>سئوال یادآوری</value>
+  </data>
+  <data name="CUQRMessage" xml:space="preserve">
+    <value>ورود سئوال یادآوری الزامی است</value>
+  </data>
+  <data name="LBText" xml:space="preserve">
+    <value>ورود</value>
+  </data>
+  <data name="LLConfirmPass" xml:space="preserve">
+    <value>تایید نام کاربری</value>
+  </data>
+  <data name="LLName" xml:space="preserve">
+    <value>نام کاربری</value>
+  </data>
+  <data name="LLPass" xml:space="preserve">
+    <value>اسم رمز</value>
+  </data>
+  <data name="LLRemember" xml:space="preserve">
+    <value>مرا بیاد آور</value>
+  </data>
+  <data name="LLTitle" xml:space="preserve">
+    <value>ورود به سامانه</value>
+  </data>
+  <data name="BTAssignRoles" xml:space="preserve">
+    <value>تخصیص نقش به کاربران</value>
+  </data>
+  <data name="BTCreateRole" xml:space="preserve">
+    <value>ایجاد نقش</value>
+  </data>
+  <data name="BTDeleteUsers" xml:space="preserve">
+    <value>حذف کاربران</value>
+  </data>
+  <data name="BTReassessText" xml:space="preserve">
+    <value>بررسی مجدد</value>
+  </data>
+  <data name="BTRemoveRoles" xml:space="preserve">
+    <value>گرفتن نقش از کاربران</value>
+  </data>
+  <data name="BTUploadText" xml:space="preserve">
+    <value>بارگذاری</value>
+  </data>
+  <data name="HLViewResult" xml:space="preserve">
+    <value>رویت آخرین بررسی</value>
+  </data>
+  <data name="LMsgWelcome" xml:space="preserve">
+    <value>به سایت خوش آمدید</value>
+  </data>
+  <data name="PHeaderData" xml:space="preserve">
+    <value>ورود اطلاعات اولیه سایت</value>
+  </data>
+  <data name="PHeaderRole" xml:space="preserve">
+    <value>صفحه مدیریت نقش سازمانی</value>
+  </data>
+  <data name="PHeaderUser" xml:space="preserve">
+    <value>صفحه مدیریت کاربران</value>
+  </data>
+  <data name="SMsgMember2" xml:space="preserve">
+    <value>این پرونده قبلا بررسی شده است. برای بررسی مجدد کلیک کنید</value>
+  </data>
+  <data name="MenuAbout" xml:space="preserve">
+    <value>درباره ما</value>
+  </data>
+  <data name="MenuAdmin" xml:space="preserve">
+    <value>مدیریت</value>
+  </data>
+  <data name="MenuAssess" xml:space="preserve">
+    <value>بررسی</value>
+  </data>
+  <data name="MenuContact" xml:space="preserve">
+    <value>تماس با ما</value>
+  </data>
+  <data name="MenuHome" xml:space="preserve">
+    <value>صفحه اصلی</value>
+  </data>
+  <data name="MenuLogin" xml:space="preserve">
+    <value>ورود به سیستم</value>
+  </data>
+  <data name="MenuRegister" xml:space="preserve">
+    <value>ثبت نام</value>
+  </data>
+  <data name="L1_1Default" xml:space="preserve">
+    <value>سامانه اعتبارسنجی بهترین ابزار برای کاهش ریسک در بانک</value>
+  </data>
+  <data name="L2Default" xml:space="preserve">
+    <value>شروع کار </value>
+  </data>
+  <data name="L2_1Default" xml:space="preserve">
+    <value>برای بررسی پرونده شما باید اول در سامانه اسم نویسی کرده باشید و با نام کاربری خود وارد سیستم شوید.</value>
+  </data>
+  <data name="L3Default" xml:space="preserve">
+    <value>نتیجه گرفتن</value>
+  </data>
+  <data name="L3_1Default" xml:space="preserve">
+    <value>این سامانه به شما امکان میدهد تا مشتریان را هم بر مبنای الگوریتم های داده کاوی و هم بر مبنای امتیاز قضاوتی اعتبارسنجی کنید.</value>
+  </data>
+  <data name="L4Default" xml:space="preserve">
+    <value>راه حل مناسب</value>
+  </data>
+  <data name="L4_1Default" xml:space="preserve">
+    <value>بعنوان مشتری شما می توانید پس از ورود به سامانه مدارک خود را بارگذاری کنید و روند بررسی درخواست خود را تسریع نمایید.</value>
+  </data>
+  <data name="L5Default" xml:space="preserve">
+    <value>اطلاعات بیشتر</value>
+  </data>
+  <data name="ProgName" xml:space="preserve">
+    <value>سامانه اعتبارسنجی</value>
+  </data>
+  <data name="GDetectType" xml:space="preserve">
+    <value>نوع تشخیص</value>
+  </data>
+  <data name="GMalwareName" xml:space="preserve">
+    <value>نام بدافزار</value>
+  </data>
+  <data name="MenuLogout" xml:space="preserve">
+    <value>خروج از سیستم</value>
+  </data>
+  <data name="SMsgHello" xml:space="preserve">
+    <value>درود</value>
+  </data>
+  <data name="MenuMain1" xml:space="preserve">
+    <value>اشخاص حقیقی</value>
+  </data>
+  <data name="MenuMain2" xml:space="preserve">
+    <value>اشخاص حقوقی</value>
+  </data>
+  <data name="MenuMain3" xml:space="preserve">
+    <value>سوابق رتبه بندی</value>
+  </data>
+  <data name="MenuMain4" xml:space="preserve">
+    <value>انتقال اطلاعات</value>
+  </data>
+  <data name="MenuMain5" xml:space="preserve">
+    <value>گزارش ها</value>
+  </data>
+  <data name="MenuMain6" xml:space="preserve">
+    <value>تابلوی هدایت</value>
+  </data>
+  <data name="MenuMain7" xml:space="preserve">
+    <value>راهنما</value>
+  </data>
+  <data name="SubMenu11" xml:space="preserve">
+    <value>جستجوی مشتری حقیقی</value>
+  </data>
+  <data name="SubMenu12" xml:space="preserve">
+    <value>مشاهده/ویرایش مشتری حقیقی</value>
+  </data>
+  <data name="SubMenu13" xml:space="preserve">
+    <value>مشتری حقیقی جدید</value>
+  </data>
+  <data name="SubMenu15" xml:space="preserve">
+    <value>ثبت مصوبه مشتری حقیقی</value>
+  </data>
+  <data name="SubMenu21" xml:space="preserve">
+    <value>جستجوی مشتری حقوقی</value>
+  </data>
+  <data name="SubMenu22" xml:space="preserve">
+    <value>مشاهده/ویرایش مشتری حقوقی</value>
+  </data>
+  <data name="SubMenu23" xml:space="preserve">
+    <value>درخواست وام جدید حقوقی</value>
+  </data>
+  <data name="SubMenu24" xml:space="preserve">
+    <value>رتبه بندی مشتری حقوقی</value>
+  </data>
+  <data name="SubMenu25" xml:space="preserve">
+    <value>ثبت مصوبه مشتری حقوقی</value>
+  </data>
+  <data name="SubMenu41" xml:space="preserve">
+    <value>اطلاعات پیشین مشتریان</value>
+  </data>
+  <data name="SubMenu42" xml:space="preserve">
+    <value>رتبه بندی گروهی</value>
+  </data>
+  <data name="SubMenu51" xml:space="preserve">
+    <value>گزارش سپرده</value>
+  </data>
+  <data name="SubMenu52" xml:space="preserve">
+    <value>گزارش تسهیلات</value>
+  </data>
+  <data name="SubMenu61" xml:space="preserve">
+    <value>کاربر جدید</value>
+  </data>
+  <data name="SubMenu62" xml:space="preserve">
+    <value>حذف کاربر</value>
+  </data>
+  <data name="SubMenu63" xml:space="preserve">
+    <value>مدیریت پروفایل</value>
+  </data>
+  <data name="SubMenu64" xml:space="preserve">
+    <value>مدیریت گروه کاربری</value>
+  </data>
+  <data name="SubMenu65" xml:space="preserve">
+    <value>گروه جدید</value>
+  </data>
+  <data name="SubMenu66" xml:space="preserve">
+    <value>حذف گروه</value>
+  </data>
+  <data name="SubMenu67" xml:space="preserve">
+    <value>تغییر رمز عبور</value>
+  </data>
+  <data name="SubMenu68" xml:space="preserve">
+    <value>ویرایش سطح دسترسی</value>
+  </data>
+  <data name="SubMenu69" xml:space="preserve">
+    <value>احتمال نکول چیست؟</value>
+  </data>
+  <data name="SubMenu70" xml:space="preserve">
+    <value>چگونگی محاسبه احتمال نکول</value>
+  </data>
+  <data name="SubMenu14" xml:space="preserve">
+    <value>رتبه بندی مشتری حقیقی</value>
+  </data>
+  <data name="SubMenu31" xml:space="preserve">
+    <value>سوابق مشتریان رتبه بندی شده</value>
+  </data>
+  <data name="SubMenu32" xml:space="preserve">
+    <value>فرم های چاپ شده</value>
+  </data>
+  <data name="PRetailSearchFooter" xml:space="preserve">
+    <value>برای ادامه کار بر روی ردیف مورد نظر خود کلیک کنید</value>
+  </data>
+  <data name="PRetailSearchHeader" xml:space="preserve">
+    <value>نتیجه جستجو مشتریان حقیقی</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>جستجو</value>
+  </data>
+  <data name="AboutTitle" xml:space="preserve">
+    <value>متن در مورد </value>
+  </data>
+  <data name="PCorpSearchFooter" xml:space="preserve">
+    <value>برای ادامه رکورد مورد نظر خود را با کلیک برروی "انتخاب" مشخص نمایید</value>
+  </data>
+  <data name="PCorpSearchHeader" xml:space="preserve">
+    <value>نتیجه جستجوی مشتریان حقوقی</value>
+  </data>
+  <data name="SelectGridText" xml:space="preserve">
+    <value>انتخاب</value>
+  </data>
+  <data name="RegisterNew" xml:space="preserve">
+    <value>اسم نویسی بعنوان کاربر سایت</value>
+  </data>
+  <data name="AnswerRequired" xml:space="preserve">
+    <value>جواب یادآوری الزامی است</value>
+  </data>
+  <data name="AnswerSecurity" xml:space="preserve">
+    <value>جواب یادآوری</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>تایید اسم رمز</value>
+  </data>
+  <data name="ConfirmPasswordRequired" xml:space="preserve">
+    <value>تایید اسم رمز الزامی است</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>آدرس پست الکترونیکی</value>
+  </data>
+  <data name="EmailRequired" xml:space="preserve">
+    <value>آدرس پست الکترونیکی الزامی است</value>
+  </data>
+  <data name="PassWord" xml:space="preserve">
+    <value>اسم رمز</value>
+  </data>
+  <data name="PasswordCompare" xml:space="preserve">
+    <value>اسم رمز و تایید آن باید مثل هم باشند</value>
+  </data>
+  <data name="PasswordRequired" xml:space="preserve">
+    <value>اسم رمز الزامی است</value>
+  </data>
+  <data name="QuestionRequired" xml:space="preserve">
+    <value>سوال یادآوری الزامی است</value>
+  </data>
+  <data name="QuestionSecurity" xml:space="preserve">
+    <value>سوال یادآوری</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>نام کاربری</value>
+  </data>
+  <data name="UserRequired" xml:space="preserve">
+    <value>نام کاربری الزامی است</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>بستن</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>لغو</value>
+  </data>
+  <data name="CreateProfile" xml:space="preserve">
+    <value>ایجاد پروفایل جدید</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>پروفایل</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>ذخیره</value>
+  </data>
+  <data name="UserGroup" xml:space="preserve">
+    <value>گروه کاربری</value>
+  </data>
+  <data name="AccessLevel" xml:space="preserve">
+    <value>سطح دسترسی</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>تایید</value>
+  </data>
+  <data name="DeleteMsg" xml:space="preserve">
+    <value>آیا حذف اطلاعات را تایید میکنید؟</value>
+  </data>
+  <data name="OperationMsg" xml:space="preserve">
+    <value>آیا انجام عملیات را تایید میکنید؟</value>
+  </data>
+  <data name="Attention" xml:space="preserve">
+    <value>توجه!</value>
+  </data>
+  <data name="JudgmentMsg" xml:space="preserve">
+    <value>محاسبه امتیاز قضاوتی.</value>
+  </data>
+  <data name="MiningMsg" xml:space="preserve">
+    <value>محاسبه احتمال نکول.</value>
+  </data>
+  <data name="ResetMsg" xml:space="preserve">
+    <value>تمام فیلدها خالی خواهند شد.</value>
+  </data>
+  <data name="TakeTimeMsg" xml:space="preserve">
+    <value>این عملیات ممکن است برحسب سرعت شبکه مقداری طول بکشد.</value>
+  </data>
+  <data name="UpdateMsg" xml:space="preserve">
+    <value>تمام اطلاعات در پایگاه اطلاعاتی جایگزین خواهد گردید.</value>
+  </data>
+  <data name="NewMsg" xml:space="preserve">
+    <value>یک رکورد جدید برای این مشتری ایجاد خواهد گردید.</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>گروه</value>
+  </data>
+  <data name="Parameter" xml:space="preserve">
+    <value>نام پارامتر</value>
+  </data>
+  <data name="Score" xml:space="preserve">
+    <value>امتیاز</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>ویرایش</value>
+  </data>
+  <data name="EraseMsg" xml:space="preserve">
+    <value>آیا مطمئن هستید که میخواهید این اطلاعات را حذف کنید؟</value>
+  </data>
+  <data name="InsertMsg" xml:space="preserve">
+    <value>آیا مطمئن هستید که میخواهید این اطلاعات را درج کنید؟</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>به روز رسانی</value>
+  </data>
+  <data name="MenuClerk" xml:space="preserve">
+    <value>همکار</value>
+  </data>
+  <data name="PHeaderClerk" xml:space="preserve">
+    <value>صفحه کارمندان</value>
+  </data>
+  <data name="DenyMessage" xml:space="preserve">
+    <value>شما مجوز کافی برای این عمل را ندارید</value>
+  </data>
+  <data name="ChooseUser" xml:space="preserve">
+    <value>شما باید شماره مشتری را وارد نمایید</value>
+  </data>
+  <data name="SMsgDocs" xml:space="preserve">
+    <value>فهرست مدارک مورد نیاز جهت درخواست وام :</value>
+  </data>
+  <data name="SMsgDocs1" xml:space="preserve">
+    <value>مدارک را در سایت بارگذاری کرده و دکمه ثبت  و ارسال را کلیک کنید</value>
+  </data>
+  <data name="SMsgDocs2" xml:space="preserve">
+    <value>ثبت و ارسال مدارک</value>
+  </data>
+  <data name="JudgeAnalyze" xml:space="preserve">
+    <value>سیستم تحلیل قضاوتی - مراتبی</value>
+  </data>
+</root>

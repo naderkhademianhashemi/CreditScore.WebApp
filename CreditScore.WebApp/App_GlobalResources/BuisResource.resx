@@ -1,0 +1,1020 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountNumber" xml:space="preserve">
+    <value>Account Number</value>
+    <comment>Common</comment>
+  </data>
+  <data name="ActualInvestment" xml:space="preserve">
+    <value>Actual Investment</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Address</value>
+    <comment>Common</comment>
+  </data>
+  <data name="Permits" xml:space="preserve">
+    <value>Permits</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="PermitsTitle" xml:space="preserve">
+    <value>To Edit the Information of a Permit Use Menus in the Footer</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="BalanceStatment" xml:space="preserve">
+    <value>Balance Statment</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="BirthDate" xml:space="preserve">
+    <value>Birth Date</value>
+    <comment>Real</comment>
+  </data>
+  <data name="BoardDirectors" xml:space="preserve">
+    <value>Board of Directors</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="BranchCode" xml:space="preserve">
+    <value>Branch Code</value>
+    <comment>Common</comment>
+  </data>
+  <data name="BuisnessID" xml:space="preserve">
+    <value>Corporate ID</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="BuisnessRegistration" xml:space="preserve">
+    <value>Registration Number</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="CentralBureau" xml:space="preserve">
+    <value>Central Bureau Information</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="ChildNumber" xml:space="preserve">
+    <value>Children</value>
+    <comment>Real</comment>
+  </data>
+  <data name="ChildrenHealthStatus" xml:space="preserve">
+    <value>Children Health Status</value>
+    <comment>Real</comment>
+  </data>
+  <data name="CollateralAmount" xml:space="preserve">
+    <value>Collateral Amount</value>
+    <comment>Common</comment>
+  </data>
+  <data name="CollateralType" xml:space="preserve">
+    <value>Collateral Type</value>
+    <comment>Common</comment>
+  </data>
+  <data name="ConjointInformation" xml:space="preserve">
+    <value>Conjoint Information</value>
+    <comment>Title</comment>
+  </data>
+  <data name="ContactInformation" xml:space="preserve">
+    <value>Contact Information</value>
+    <comment>Title</comment>
+  </data>
+  <data name="CorporateActivity" xml:space="preserve">
+    <value>Corporate Main Activity</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="CorporateInformation" xml:space="preserve">
+    <value>General Corporate Information</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="CorporateName" xml:space="preserve">
+    <value>Corporate Name</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="CorporateType" xml:space="preserve">
+    <value>Corporate Type</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="CreditInformation" xml:space="preserve">
+    <value>Credit Information</value>
+    <comment>Title</comment>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>Currency</value>
+    <comment>Common</comment>
+  </data>
+  <data name="CustomerGroup" xml:space="preserve">
+    <value>Customer Group</value>
+    <comment>Real</comment>
+  </data>
+  <data name="CustomerNumber" xml:space="preserve">
+    <value>Customer Number</value>
+    <comment>Common</comment>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+    <comment>Action</comment>
+  </data>
+  <data name="Dependants" xml:space="preserve">
+    <value>Dependants</value>
+    <comment>Real</comment>
+  </data>
+  <data name="EconomicSector" xml:space="preserve">
+    <value>Economic Sector</value>
+    <comment>Common</comment>
+  </data>
+  <data name="EditInformation" xml:space="preserve">
+    <value>Edit Information</value>
+    <comment>Action</comment>
+  </data>
+  <data name="EducationDegree" xml:space="preserve">
+    <value>Education Degree</value>
+    <comment>Real</comment>
+  </data>
+  <data name="EducationField" xml:space="preserve">
+    <value>Education Field</value>
+    <comment>Real</comment>
+  </data>
+  <data name="EducationJobInformation" xml:space="preserve">
+    <value>Education &amp; Job Information</value>
+    <comment>Title</comment>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+    <comment>Common</comment>
+  </data>
+  <data name="EstablishmentDate" xml:space="preserve">
+    <value>Establishment Date</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="FacilitiesInformation" xml:space="preserve">
+    <value>Facilities Information</value>
+    <comment>Title</comment>
+  </data>
+  <data name="FactoryWorkshop" xml:space="preserve">
+    <value>Factory / Workshop Information</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="Fame" xml:space="preserve">
+    <value>Fame</value>
+    <comment>Real</comment>
+  </data>
+  <data name="FatherName" xml:space="preserve">
+    <value>Father Name</value>
+    <comment>Real</comment>
+  </data>
+  <data name="Female" xml:space="preserve">
+    <value>Female</value>
+    <comment>Real</comment>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>First Name</value>
+    <comment>Real</comment>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>Gender</value>
+    <comment>Real</comment>
+  </data>
+  <data name="HasMoreJob" xml:space="preserve">
+    <value>Second Job or More</value>
+    <comment>Real</comment>
+  </data>
+  <data name="HealthInformation" xml:space="preserve">
+    <value>Health Record</value>
+    <comment>Title</comment>
+  </data>
+  <data name="HealthStatus" xml:space="preserve">
+    <value>Health Status</value>
+    <comment>Real</comment>
+  </data>
+  <data name="Housing" xml:space="preserve">
+    <value>Housing</value>
+    <comment>Real</comment>
+  </data>
+  <data name="IdentificationID" xml:space="preserve">
+    <value>Identification ID</value>
+    <comment>Real</comment>
+  </data>
+  <data name="InBourse" xml:space="preserve">
+    <value>Stock Exchange</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="IncomeStatement" xml:space="preserve">
+    <value>Income Statement</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="InitialInvestment" xml:space="preserve">
+    <value>Initial Investment</value>
+    <comment>Common</comment>
+  </data>
+  <data name="Installment" xml:space="preserve">
+    <value>Installment</value>
+    <comment>Common</comment>
+  </data>
+  <data name="InstallmentNumber" xml:space="preserve">
+    <value>Installment Number</value>
+    <comment>Common</comment>
+  </data>
+  <data name="InstallmentPeriod" xml:space="preserve">
+    <value>Installment Period</value>
+    <comment>Common</comment>
+  </data>
+  <data name="IssuedPlace" xml:space="preserve">
+    <value>Issued Place</value>
+    <comment>Real</comment>
+  </data>
+  <data name="JobPost" xml:space="preserve">
+    <value>Post</value>
+    <comment>Real</comment>
+  </data>
+  <data name="JudgmentalScoring" xml:space="preserve">
+    <value>Judgmental Scoring</value>
+    <comment>Action</comment>
+  </data>
+  <data name="LastEmploymentDuration" xml:space="preserve">
+    <value>Last Employment Duration</value>
+    <comment>Real</comment>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Last Name</value>
+    <comment>Real</comment>
+  </data>
+  <data name="LoanAmount" xml:space="preserve">
+    <value>Loan Amount</value>
+    <comment>Common</comment>
+  </data>
+  <data name="LoanCode" xml:space="preserve">
+    <value>Loan Code</value>
+    <comment>Common</comment>
+  </data>
+  <data name="LoanDepositType" xml:space="preserve">
+    <value>Deposit</value>
+    <comment>Common</comment>
+  </data>
+  <data name="LoanEndDate" xml:space="preserve">
+    <value>End Date</value>
+    <comment>Common</comment>
+  </data>
+  <data name="LoanFromDate" xml:space="preserve">
+    <value>From Date</value>
+    <comment>Common</comment>
+  </data>
+  <data name="LoanMajorType" xml:space="preserve">
+    <value>Loan Major Type</value>
+    <comment>Common</comment>
+  </data>
+  <data name="LoanMaturityDate" xml:space="preserve">
+    <value>Maturity Date</value>
+    <comment>Common</comment>
+  </data>
+  <data name="LoanReason" xml:space="preserve">
+    <value>Loan Reason</value>
+    <comment>Common</comment>
+  </data>
+  <data name="LoanStatus" xml:space="preserve">
+    <value>Loan Status</value>
+    <comment>Common</comment>
+  </data>
+  <data name="LoanType" xml:space="preserve">
+    <value>Loan Type</value>
+    <comment>Common</comment>
+  </data>
+  <data name="MainActivity" xml:space="preserve">
+    <value>Main Activity</value>
+    <comment>Real</comment>
+  </data>
+  <data name="Male" xml:space="preserve">
+    <value>Male</value>
+    <comment>Real</comment>
+  </data>
+  <data name="MaritalStatus" xml:space="preserve">
+    <value>Marital Status</value>
+    <comment>Real</comment>
+  </data>
+  <data name="Married" xml:space="preserve">
+    <value>Married</value>
+    <comment>Real</comment>
+  </data>
+  <data name="MedicalExpenses" xml:space="preserve">
+    <value>In Case of Diseases Input Medical Expenses</value>
+    <comment>Real</comment>
+  </data>
+  <data name="Membership" xml:space="preserve">
+    <value>Membership Type</value>
+    <comment>Real</comment>
+  </data>
+  <data name="MilitaryService" xml:space="preserve">
+    <value>Military Service</value>
+    <comment>Real</comment>
+  </data>
+  <data name="MiningScoring" xml:space="preserve">
+    <value>Mining Scoring</value>
+    <comment>Action</comment>
+  </data>
+  <data name="MonthlyIncome" xml:space="preserve">
+    <value>Monthly Income</value>
+    <comment>Real</comment>
+  </data>
+  <data name="NationalID" xml:space="preserve">
+    <value>National ID</value>
+    <comment>Real</comment>
+  </data>
+  <data name="OfficeAddress" xml:space="preserve">
+    <value>Office Address</value>
+    <comment>Common</comment>
+  </data>
+  <data name="OfficeName" xml:space="preserve">
+    <value>Job Place</value>
+    <comment>Real</comment>
+  </data>
+  <data name="OfficePhone" xml:space="preserve">
+    <value>Office Phone Number</value>
+    <comment>Common</comment>
+  </data>
+  <data name="OfficeSecondName" xml:space="preserve">
+    <value>Second Job Place</value>
+    <comment>Real</comment>
+  </data>
+  <data name="OfficeSecondPhone" xml:space="preserve">
+    <value>Office2 Phone Number</value>
+    <comment>Real</comment>
+  </data>
+  <data name="ParentOrganisation" xml:space="preserve">
+    <value>Parent Organisation</value>
+    <comment>Real</comment>
+  </data>
+  <data name="PersonalInformation" xml:space="preserve">
+    <value>Personal Information</value>
+    <comment>Title</comment>
+  </data>
+  <data name="PersonelNumber" xml:space="preserve">
+    <value>Personel Number</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="PhoneNumber" xml:space="preserve">
+    <value>Phone</value>
+    <comment>Common</comment>
+  </data>
+  <data name="PledgeAmount" xml:space="preserve">
+    <value>Pledge Amount</value>
+    <comment>Common</comment>
+  </data>
+  <data name="POBox" xml:space="preserve">
+    <value>P.O Box</value>
+    <comment>Common</comment>
+  </data>
+  <data name="RegistrationPlace" xml:space="preserve">
+    <value>RegistrationPlace</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="RepresentationNumber" xml:space="preserve">
+    <value>Representation Number</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="RequestType" xml:space="preserve">
+    <value>Request Type</value>
+    <comment>Common</comment>
+  </data>
+  <data name="ResetFields" xml:space="preserve">
+    <value>Reset Fields</value>
+    <comment>Action</comment>
+  </data>
+  <data name="Resident" xml:space="preserve">
+    <value>Residential Status</value>
+    <comment>Real</comment>
+  </data>
+  <data name="SecondJobInformation" xml:space="preserve">
+    <value>Second Job Information</value>
+    <comment>Real</comment>
+  </data>
+  <data name="ShareHolders" xml:space="preserve">
+    <value>ShareHolders</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="Single" xml:space="preserve">
+    <value>Single</value>
+    <comment>Real</comment>
+  </data>
+  <data name="StockEntranceDate" xml:space="preserve">
+    <value>Stock Entrance Date</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="PermitType" xml:space="preserve">
+    <value>Permit Type</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="ExpirationDate" xml:space="preserve">
+    <value>Expiration Date</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="IssuedDate" xml:space="preserve">
+    <value>Issued Date</value>
+    <comment>Common</comment>
+  </data>
+  <data name="PermitNumber" xml:space="preserve">
+    <value>Permit Number</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="PermitOrgIssued" xml:space="preserve">
+    <value>Issued By</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="Validity" xml:space="preserve">
+    <value>Validity (In Month)</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="AccountOpeningDate" xml:space="preserve">
+    <value>Account Opening Date</value>
+    <comment>Real</comment>
+  </data>
+  <data name="AccountType" xml:space="preserve">
+    <value>Account Type</value>
+    <comment>Real</comment>
+  </data>
+  <data name="ActualAccountAmount" xml:space="preserve">
+    <value>Actual Amount of the Account</value>
+    <comment>Real</comment>
+  </data>
+  <data name="AssetAmount" xml:space="preserve">
+    <value>The Amount of Asset</value>
+    <comment>Real</comment>
+  </data>
+  <data name="AssetName" xml:space="preserve">
+    <value>Asset Title</value>
+    <comment>Real</comment>
+  </data>
+  <data name="BankAccounts" xml:space="preserve">
+    <value>Bank Accounts</value>
+    <comment>Real</comment>
+  </data>
+  <data name="BankAccountsTitle" xml:space="preserve">
+    <value>Indicate in the table your accounts information</value>
+    <comment>Real</comment>
+  </data>
+  <data name="BankName" xml:space="preserve">
+    <value>Financial Institution Name</value>
+    <comment>Real</comment>
+  </data>
+  <data name="CostAmount" xml:space="preserve">
+    <value>Cost Amount</value>
+    <comment>Real</comment>
+  </data>
+  <data name="Costs" xml:space="preserve">
+    <value>Costs</value>
+    <comment>Real</comment>
+  </data>
+  <data name="CostsTitle" xml:space="preserve">
+    <value>Indicate in the table your costs </value>
+    <comment>Real</comment>
+  </data>
+  <data name="CostType" xml:space="preserve">
+    <value>Cost Type</value>
+    <comment>Real</comment>
+  </data>
+  <data name="CreditTurnOver" xml:space="preserve">
+    <value>Account Credit Turn Over</value>
+    <comment>Real</comment>
+  </data>
+  <data name="CurrentGuaranties" xml:space="preserve">
+    <value>Current Guaranties</value>
+    <comment>Real</comment>
+  </data>
+  <data name="CurrentGuarantiesTitle" xml:space="preserve">
+    <value>Indicate the state of your guaranties</value>
+    <comment>Real</comment>
+  </data>
+  <data name="Earnings" xml:space="preserve">
+    <value>Earnings</value>
+    <comment>Real</comment>
+  </data>
+  <data name="IncomeAmount" xml:space="preserve">
+    <value>Income Amount</value>
+    <comment>Real</comment>
+  </data>
+  <data name="IncomeTitle" xml:space="preserve">
+    <value>Indicate in the table your incomes</value>
+    <comment>Real</comment>
+  </data>
+  <data name="IncomeType" xml:space="preserve">
+    <value>Income Type</value>
+    <comment>Real</comment>
+  </data>
+  <data name="LenderOrg" xml:space="preserve">
+    <value>Lender</value>
+    <comment>Real</comment>
+  </data>
+  <data name="LoanRecords" xml:space="preserve">
+    <value>Loan Records</value>
+    <comment>Real</comment>
+  </data>
+  <data name="LoanRecordsTitle" xml:space="preserve">
+    <value>Indicate here your loans and other financial facilities</value>
+    <comment>Real</comment>
+  </data>
+  <data name="MovableFixedAssets" xml:space="preserve">
+    <value>Movable and Fixed Assets</value>
+    <comment>Real</comment>
+  </data>
+  <data name="MovableFixedAssetsTitle" xml:space="preserve">
+    <value>Indicate in the table your movable and fixed assets</value>
+    <comment>Real</comment>
+  </data>
+  <data name="RemainingAmount" xml:space="preserve">
+    <value>RemainingAmount</value>
+    <comment>Real</comment>
+  </data>
+  <data name="SharesPercentage" xml:space="preserve">
+    <value>Shares Percentage</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="ApproximateValue" xml:space="preserve">
+    <value>Approximate Value of the Day</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="BuildingSite" xml:space="preserve">
+    <value>Building Site</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="FoxNumber" xml:space="preserve">
+    <value>Fox</value>
+    <comment>Common</comment>
+  </data>
+  <data name="Free" xml:space="preserve">
+    <value>Free</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="Leased" xml:space="preserve">
+    <value>Leased</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="OnMortgage" xml:space="preserve">
+    <value>On Mortgage</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="OnMortgageAmount" xml:space="preserve">
+    <value>OnMortgage Amount</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="OnMortgageDate" xml:space="preserve">
+    <value>OnMortgage Date</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="OnMortgageDuration" xml:space="preserve">
+    <value>OnMortgage Duration (in Year)</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="Ownership" xml:space="preserve">
+    <value>Ownership</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="proprietary" xml:space="preserve">
+    <value>proprietary</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="RentAmount" xml:space="preserve">
+    <value>Rent Amount</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="StandingProperty" xml:space="preserve">
+    <value>Standing Property (m2)</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="Surface" xml:space="preserve">
+    <value>Surface (m2)</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="TitleDeed" xml:space="preserve">
+    <value>Title Deed</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="ToolsMachinery" xml:space="preserve">
+    <value>Approximate Value of the Day for Machineries</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="GoToLoan" xml:space="preserve">
+    <value>Click To See the Details</value>
+    <comment>Both</comment>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>View</value>
+    <comment>Both</comment>
+  </data>
+  <data name="JobStatus" xml:space="preserve">
+    <value>Job Status</value>
+    <comment>Real</comment>
+  </data>
+  <data name="Assurance1" xml:space="preserve">
+    <value>Collateral Type 1 Percentage</value>
+    <comment>Both</comment>
+  </data>
+  <data name="Assurance2" xml:space="preserve">
+    <value>Collateral Type 2 Percentage</value>
+    <comment>Both</comment>
+  </data>
+  <data name="SelectDateMsg" xml:space="preserve">
+    <value>Select Date</value>
+    <comment>Both</comment>
+  </data>
+  <data name="BuisModelDM" xml:space="preserve">
+    <value>The name of data mining model used for scoring buisness</value>
+    <comment>Common</comment>
+  </data>
+  <data name="BuisModelJG" xml:space="preserve">
+    <value>The name of judgmental model used for ranking buisness</value>
+    <comment>Common</comment>
+  </data>
+  <data name="RetailModelDM" xml:space="preserve">
+    <value>The name of data mining model used for scoring retail</value>
+    <comment>Common</comment>
+  </data>
+  <data name="RetailModelJG" xml:space="preserve">
+    <value>The name of judgmental model used for ranking retail</value>
+    <comment>Common</comment>
+  </data>
+  <data name="ViewModelNames" xml:space="preserve">
+    <value>View the names of the models for scoring</value>
+    <comment>Common</comment>
+  </data>
+  <data name="AccountsInfo" xml:space="preserve">
+    <value>Accounts</value>
+    <comment>Common</comment>
+  </data>
+  <data name="AssetInfo" xml:space="preserve">
+    <value>Asset</value>
+    <comment>Common</comment>
+  </data>
+  <data name="CostInfo" xml:space="preserve">
+    <value>Cost</value>
+    <comment>Common</comment>
+  </data>
+  <data name="CreateDate" xml:space="preserve">
+    <value>Create Date</value>
+    <comment>Common</comment>
+  </data>
+  <data name="FacilityInfo" xml:space="preserve">
+    <value>Facilities</value>
+    <comment>Common</comment>
+  </data>
+  <data name="GuarantyInfo" xml:space="preserve">
+    <value>Guaranties</value>
+    <comment>Common</comment>
+  </data>
+  <data name="IncomeInfo" xml:space="preserve">
+    <value>Income</value>
+    <comment>Common</comment>
+  </data>
+  <data name="LoanInfo" xml:space="preserve">
+    <value>Loan Info</value>
+    <comment>Common</comment>
+  </data>
+  <data name="SpouseInfo" xml:space="preserve">
+    <value>Conjoint</value>
+    <comment>Common</comment>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Description</value>
+    <comment>Common</comment>
+  </data>
+  <data name="Kind" xml:space="preserve">
+    <value>Type</value>
+    <comment>Common</comment>
+  </data>
+  <data name="Payment" xml:space="preserve">
+    <value>Installement</value>
+    <comment>Common</comment>
+  </data>
+  <data name="Case" xml:space="preserve">
+    <value>Search Case</value>
+    <comment>Common</comment>
+  </data>
+  <data name="Corporate" xml:space="preserve">
+    <value>Corporate</value>
+    <comment>Common</comment>
+  </data>
+  <data name="CustomerType" xml:space="preserve">
+    <value>Customer Type</value>
+    <comment>Common</comment>
+  </data>
+  <data name="Database" xml:space="preserve">
+    <value>Database</value>
+    <comment>Common</comment>
+  </data>
+  <data name="Individual" xml:space="preserve">
+    <value>Individual</value>
+    <comment>Common</comment>
+  </data>
+  <data name="SearchPhrase" xml:space="preserve">
+    <value>Search Phrase</value>
+    <comment>Common</comment>
+  </data>
+  <data name="TransferData" xml:space="preserve">
+    <value>Transfer Data</value>
+    <comment>Common</comment>
+  </data>
+  <data name="ViewInformation" xml:space="preserve">
+    <value>View Information</value>
+    <comment>Common</comment>
+  </data>
+  <data name="CustomersHistory" xml:space="preserve">
+    <value>Customers History</value>
+  </data>
+  <data name="Mehr" xml:space="preserve">
+    <value>Mehr</value>
+  </data>
+  <data name="Negin" xml:space="preserve">
+    <value>Negin</value>
+  </data>
+  <data name="ProbabilityofDefault" xml:space="preserve">
+    <value>Probability of Default</value>
+  </data>
+  <data name="SearchPlace" xml:space="preserve">
+    <value>Search Holder</value>
+    <comment>Common</comment>
+  </data>
+  <data name="AddToList" xml:space="preserve">
+    <value>Add to List</value>
+  </data>
+  <data name="CorpAssessMsg" xml:space="preserve">
+    <value>To score corporates add them to the table</value>
+  </data>
+  <data name="DeleteFromList" xml:space="preserve">
+    <value>Delete from List</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="Ranking" xml:space="preserve">
+    <value>Ranking</value>
+  </data>
+  <data name="RetailAssessMsg" xml:space="preserve">
+    <value>To score individuals add them to the table</value>
+  </data>
+  <data name="StateCode" xml:space="preserve">
+    <value>Region Code</value>
+    <comment>Common</comment>
+  </data>
+  <data name="CreateInformation" xml:space="preserve">
+    <value>Create</value>
+    <comment>Common</comment>
+  </data>
+  <data name="BranchName" xml:space="preserve">
+    <value>Name of the Branch</value>
+    <comment>Common</comment>
+  </data>
+  <data name="StateName" xml:space="preserve">
+    <value>Region Name</value>
+    <comment>Common</comment>
+  </data>
+  <data name="FacilityType" xml:space="preserve">
+    <value>Facility Type</value>
+    <comment>Common</comment>
+  </data>
+  <data name="ApprovedAmount" xml:space="preserve">
+    <value>Approved Amount</value>
+    <comment>Both</comment>
+  </data>
+  <data name="ApprovedLoanType" xml:space="preserve">
+    <value>Approved Loan Type</value>
+    <comment>Both</comment>
+  </data>
+  <data name="ApprovedStatus" xml:space="preserve">
+    <value>Approved Status</value>
+    <comment>Both</comment>
+  </data>
+  <data name="Rejected" xml:space="preserve">
+    <value>Rejected</value>
+    <comment>Both</comment>
+  </data>
+  <data name="SaveApproval" xml:space="preserve">
+    <value>Save Approval</value>
+    <comment>Both</comment>
+  </data>
+  <data name="CollateralInformation" xml:space="preserve">
+    <value>Collateral Information</value>
+    <comment>Common</comment>
+  </data>
+  <data name="CustomerInfo" xml:space="preserve">
+    <value>Customer Information</value>
+    <comment>Real</comment>
+  </data>
+  <data name="Prediction" xml:space="preserve">
+    <value>Prediction</value>
+  </data>
+  <data name="Age" xml:space="preserve">
+    <value>Age</value>
+    <comment>Common</comment>
+  </data>
+  <data name="ActivityType" xml:space="preserve">
+    <value>Activity Type</value>
+    <comment>Both</comment>
+  </data>
+  <data name="BourseMember" xml:space="preserve">
+    <value>Bourse Member</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="CenterBureau" xml:space="preserve">
+    <value>Centeral Bureau</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="Factory" xml:space="preserve">
+    <value>Factory</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="InitialCapital" xml:space="preserve">
+    <value>Initial Capital</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="Loan" xml:space="preserve">
+    <value>Loan</value>
+    <comment>Common</comment>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>End Date</value>
+    <comment>Common</comment>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Start Date</value>
+    <comment>Common</comment>
+  </data>
+  <data name="DBInsert" xml:space="preserve">
+    <value>Database Insert Command</value>
+    <comment>Both</comment>
+  </data>
+  <data name="LogTime" xml:space="preserve">
+    <value>Log Time</value>
+    <comment>Both</comment>
+  </data>
+  <data name="Model" xml:space="preserve">
+    <value>Model</value>
+    <comment>Common</comment>
+  </data>
+  <data name="RankingRecord" xml:space="preserve">
+    <value>Ranking Record</value>
+    <comment>Both</comment>
+  </data>
+  <data name="MatchContains" xml:space="preserve">
+    <value>Contains</value>
+    <comment>Common</comment>
+  </data>
+  <data name="MatchEqual" xml:space="preserve">
+    <value>Equal to</value>
+    <comment>Common</comment>
+  </data>
+  <data name="MatchStarts" xml:space="preserve">
+    <value>Starts with</value>
+    <comment>Common</comment>
+  </data>
+  <data name="EnterValue" xml:space="preserve">
+    <value>Enter the value of this field :</value>
+    <comment>Common</comment>
+  </data>
+  <data name="MsgNoAssess" xml:space="preserve">
+    <value>No rating result exists</value>
+    <comment>Both</comment>
+  </data>
+  <data name="SelectMaturityDateMsg" xml:space="preserve">
+    <value>Maturity Date</value>
+    <comment>Both</comment>
+  </data>
+  <data name="StrDocName1" xml:space="preserve">
+    <value>Offichial Journal</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="StrDocName2" xml:space="preserve">
+    <value>Trial Balance</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="StrDocName3" xml:space="preserve">
+    <value>Balance Sheet</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="StrDocName4" xml:space="preserve">
+    <value>Income Statement</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="StrDocName5" xml:space="preserve">
+    <value>Inaugural Document</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="StrDocName6" xml:space="preserve">
+    <value>ShareHolders List</value>
+    <comment>Corp</comment>
+  </data>
+  <data name="StrLoanRequest" xml:space="preserve">
+    <value>Fill Loan Form</value>
+    <comment>Both</comment>
+  </data>
+  <data name="MovableFixedAccountsRecordsTitle" xml:space="preserve">
+    <value>MovableFixedAccountsRecordsTitle</value>
+  </data>
+</root>

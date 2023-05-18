@@ -1,0 +1,804 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountNumber" xml:space="preserve">
+    <value>شماره حساب</value>
+  </data>
+  <data name="ActualInvestment" xml:space="preserve">
+    <value>سرمایه ثبتی فعلی</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>آدرس</value>
+  </data>
+  <data name="Permits" xml:space="preserve">
+    <value>مجوزها</value>
+  </data>
+  <data name="PermitsTitle" xml:space="preserve">
+    <value>برای تغییرات اطلاعات مجوز ها از منوهای پایین صفحه استفاده نمایید</value>
+  </data>
+  <data name="BalanceStatment" xml:space="preserve">
+    <value>ترازنامه</value>
+  </data>
+  <data name="BirthDate" xml:space="preserve">
+    <value>تاریخ تولد</value>
+  </data>
+  <data name="BoardDirectors" xml:space="preserve">
+    <value>هیئت مدیره</value>
+  </data>
+  <data name="BranchCode" xml:space="preserve">
+    <value>کد شعبه</value>
+  </data>
+  <data name="BuisnessID" xml:space="preserve">
+    <value>شناسه ثبت</value>
+  </data>
+  <data name="BuisnessRegistration" xml:space="preserve">
+    <value>شماره ثبت</value>
+  </data>
+  <data name="CentralBureau" xml:space="preserve">
+    <value>اطلاعات دفتر مرکزی</value>
+  </data>
+  <data name="ChildNumber" xml:space="preserve">
+    <value>تعداد فرزندان</value>
+  </data>
+  <data name="ChildrenHealthStatus" xml:space="preserve">
+    <value>وضعیت جسمی فرزندان</value>
+  </data>
+  <data name="CollateralAmount" xml:space="preserve">
+    <value>مبلغ وثیقه</value>
+  </data>
+  <data name="CollateralType" xml:space="preserve">
+    <value>نوع وثیقه</value>
+  </data>
+  <data name="ConjointInformation" xml:space="preserve">
+    <value>اطلاعات هویتی و شغلی همسر مشتری</value>
+  </data>
+  <data name="ContactInformation" xml:space="preserve">
+    <value>اطلاعات تماس</value>
+  </data>
+  <data name="CorporateActivity" xml:space="preserve">
+    <value>زمینه اصلی فعالیت شرکت</value>
+  </data>
+  <data name="CorporateInformation" xml:space="preserve">
+    <value>اطلاعات عمومی شرکت</value>
+  </data>
+  <data name="CorporateName" xml:space="preserve">
+    <value>نام شرکت</value>
+  </data>
+  <data name="CorporateType" xml:space="preserve">
+    <value>نوع شرکت</value>
+  </data>
+  <data name="CreditInformation" xml:space="preserve">
+    <value>اطلاعات اعتباری متقاضی</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>نوع ارز</value>
+  </data>
+  <data name="CustomerGroup" xml:space="preserve">
+    <value>گروه مشتری</value>
+  </data>
+  <data name="CustomerNumber" xml:space="preserve">
+    <value>شماره مشتری</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>حذف اطلاعات</value>
+  </data>
+  <data name="Dependants" xml:space="preserve">
+    <value>تعداد افراد تحت تکفل</value>
+  </data>
+  <data name="EconomicSector" xml:space="preserve">
+    <value>بخش اقتصادی</value>
+  </data>
+  <data name="EditInformation" xml:space="preserve">
+    <value>ذخیره اطلاعات</value>
+  </data>
+  <data name="EducationDegree" xml:space="preserve">
+    <value>میزان تحصیلات</value>
+  </data>
+  <data name="EducationField" xml:space="preserve">
+    <value>رشته آخرین مدرک تحصیلی</value>
+  </data>
+  <data name="EducationJobInformation" xml:space="preserve">
+    <value>اطلاعات تحصیلی و شغلی</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>پست الکترونیکی</value>
+  </data>
+  <data name="EstablishmentDate" xml:space="preserve">
+    <value>تاریخ تاسیس</value>
+  </data>
+  <data name="FacilitiesInformation" xml:space="preserve">
+    <value>اطلاعات تسهیلات متقاضی</value>
+  </data>
+  <data name="FactoryWorkshop" xml:space="preserve">
+    <value>اطلاعات کارگاه / کارخانه</value>
+  </data>
+  <data name="Fame" xml:space="preserve">
+    <value>شهرت</value>
+  </data>
+  <data name="FatherName" xml:space="preserve">
+    <value>نام پدر</value>
+  </data>
+  <data name="Female" xml:space="preserve">
+    <value>زن</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>نام</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>جنسیت</value>
+  </data>
+  <data name="HasMoreJob" xml:space="preserve">
+    <value>شغل دوم یا بیشتر</value>
+  </data>
+  <data name="HealthInformation" xml:space="preserve">
+    <value>اطلاعات سلامت</value>
+  </data>
+  <data name="HealthStatus" xml:space="preserve">
+    <value>وضعیت سلامت</value>
+  </data>
+  <data name="Housing" xml:space="preserve">
+    <value>وضعیت سکونت</value>
+  </data>
+  <data name="IdentificationID" xml:space="preserve">
+    <value>شماره شناسنامه</value>
+  </data>
+  <data name="InBourse" xml:space="preserve">
+    <value>وارد بورس شده</value>
+  </data>
+  <data name="IncomeStatement" xml:space="preserve">
+    <value>صورت سود و زیان</value>
+  </data>
+  <data name="InitialInvestment" xml:space="preserve">
+    <value>سرمایه ثبتی اولیه</value>
+  </data>
+  <data name="Installment" xml:space="preserve">
+    <value>مبلغ قسط</value>
+  </data>
+  <data name="InstallmentNumber" xml:space="preserve">
+    <value>تعداد اقساط</value>
+  </data>
+  <data name="InstallmentPeriod" xml:space="preserve">
+    <value>فاصله اقساط</value>
+  </data>
+  <data name="IssuedPlace" xml:space="preserve">
+    <value>محل صدور</value>
+  </data>
+  <data name="JobPost" xml:space="preserve">
+    <value>سمت</value>
+  </data>
+  <data name="JudgmentalScoring" xml:space="preserve">
+    <value>امتیاز قضاوتی</value>
+  </data>
+  <data name="LastEmploymentDuration" xml:space="preserve">
+    <value>مدت اشتغال در آخرین شغل</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>نام خانوادگی</value>
+  </data>
+  <data name="LoanAmount" xml:space="preserve">
+    <value>مبلغ تسهیلات</value>
+  </data>
+  <data name="LoanCode" xml:space="preserve">
+    <value>شماره وام</value>
+  </data>
+  <data name="LoanDepositType" xml:space="preserve">
+    <value>سپرده گذاری</value>
+  </data>
+  <data name="LoanEndDate" xml:space="preserve">
+    <value>الی</value>
+  </data>
+  <data name="LoanFromDate" xml:space="preserve">
+    <value>بازه زمانی ایجاد وام از</value>
+  </data>
+  <data name="LoanMajorType" xml:space="preserve">
+    <value>نوع اصلی قرارداد</value>
+  </data>
+  <data name="LoanMaturityDate" xml:space="preserve">
+    <value>تاریخ سررسید</value>
+  </data>
+  <data name="LoanReason" xml:space="preserve">
+    <value>هدف از دریافت تسهیلات</value>
+  </data>
+  <data name="LoanStatus" xml:space="preserve">
+    <value>وضعیت وام</value>
+  </data>
+  <data name="LoanType" xml:space="preserve">
+    <value>نوع وام</value>
+  </data>
+  <data name="MainActivity" xml:space="preserve">
+    <value>فعالیت اصلی اقتصادی</value>
+  </data>
+  <data name="Male" xml:space="preserve">
+    <value>مرد</value>
+  </data>
+  <data name="MaritalStatus" xml:space="preserve">
+    <value>وضعیت تاهل</value>
+  </data>
+  <data name="Married" xml:space="preserve">
+    <value>متاهل</value>
+  </data>
+  <data name="MedicalExpenses" xml:space="preserve">
+    <value>در صورت بیماری هزینه آن را (به ریال) وارد کنید</value>
+  </data>
+  <data name="Membership" xml:space="preserve">
+    <value>نوع عضویت</value>
+  </data>
+  <data name="MilitaryService" xml:space="preserve">
+    <value>پایان خدمت</value>
+  </data>
+  <data name="MiningScoring" xml:space="preserve">
+    <value>محاسبه نکول</value>
+  </data>
+  <data name="MonthlyIncome" xml:space="preserve">
+    <value>درآمد ماهیانه</value>
+  </data>
+  <data name="NationalID" xml:space="preserve">
+    <value>کد ملی</value>
+  </data>
+  <data name="OfficeAddress" xml:space="preserve">
+    <value>نشانی محل کار</value>
+  </data>
+  <data name="OfficeName" xml:space="preserve">
+    <value>نام محل اشتغال</value>
+  </data>
+  <data name="OfficePhone" xml:space="preserve">
+    <value>تلفن محل کار</value>
+  </data>
+  <data name="OfficeSecondName" xml:space="preserve">
+    <value>نام محل اشتغال</value>
+  </data>
+  <data name="OfficeSecondPhone" xml:space="preserve">
+    <value>تلفن محل کار</value>
+  </data>
+  <data name="ParentOrganisation" xml:space="preserve">
+    <value>سازمان متبوع</value>
+  </data>
+  <data name="PersonalInformation" xml:space="preserve">
+    <value>اطلاعات هویتی و شغلی</value>
+  </data>
+  <data name="PersonelNumber" xml:space="preserve">
+    <value>تعداد پرسنل</value>
+  </data>
+  <data name="PhoneNumber" xml:space="preserve">
+    <value>تلفن</value>
+  </data>
+  <data name="PledgeAmount" xml:space="preserve">
+    <value>مبلغ ترهینی</value>
+  </data>
+  <data name="POBox" xml:space="preserve">
+    <value>صندوق پستی</value>
+  </data>
+  <data name="RegistrationPlace" xml:space="preserve">
+    <value>محل ثبت</value>
+  </data>
+  <data name="RepresentationNumber" xml:space="preserve">
+    <value>تعداد نمایندگی ها</value>
+  </data>
+  <data name="RequestType" xml:space="preserve">
+    <value>نوع درخواست</value>
+  </data>
+  <data name="ResetFields" xml:space="preserve">
+    <value>خالی کردن فیلدها</value>
+  </data>
+  <data name="Resident" xml:space="preserve">
+    <value>وضعیت اقامت</value>
+  </data>
+  <data name="SecondJobInformation" xml:space="preserve">
+    <value>اطلاعات شغل دوم</value>
+  </data>
+  <data name="ShareHolders" xml:space="preserve">
+    <value>سهامداران</value>
+  </data>
+  <data name="Single" xml:space="preserve">
+    <value>مجرد</value>
+  </data>
+  <data name="StockEntranceDate" xml:space="preserve">
+    <value>تاریخ ورود به بورس</value>
+  </data>
+  <data name="IssuedDate" xml:space="preserve">
+    <value>تاریخ صدور</value>
+  </data>
+  <data name="PermitType" xml:space="preserve">
+    <value>نوع مجوز</value>
+  </data>
+  <data name="PermitNumber" xml:space="preserve">
+    <value>شماره مجوز</value>
+  </data>
+  <data name="PermitOrgIssued" xml:space="preserve">
+    <value>واحد صدور</value>
+  </data>
+  <data name="Validity" xml:space="preserve">
+    <value>مدت اعتبار(ماه)</value>
+  </data>
+  <data name="ExpirationDate" xml:space="preserve">
+    <value>تاریخ انقضا</value>
+  </data>
+  <data name="AccountOpeningDate" xml:space="preserve">
+    <value>تاریخ افتتاح حساب</value>
+  </data>
+  <data name="AccountType" xml:space="preserve">
+    <value>نوع حساب</value>
+  </data>
+  <data name="ActualAccountAmount" xml:space="preserve">
+    <value>موجودی فعلی حساب</value>
+  </data>
+  <data name="AssetAmount" xml:space="preserve">
+    <value>مبلغ دارایی</value>
+  </data>
+  <data name="AssetName" xml:space="preserve">
+    <value>عنوان دارایی</value>
+  </data>
+  <data name="BankAccounts" xml:space="preserve">
+    <value>حساب های بانکی</value>
+  </data>
+  <data name="BankAccountsTitle" xml:space="preserve">
+    <value>اطلاعات حساب های بانکی خود را در این جدول وارد نمایید</value>
+  </data>
+  <data name="BankName" xml:space="preserve">
+    <value>نام بانک</value>
+  </data>
+  <data name="CostAmount" xml:space="preserve">
+    <value>مبلغ هزینه</value>
+  </data>
+  <data name="Costs" xml:space="preserve">
+    <value>هزینه ها</value>
+  </data>
+  <data name="CostsTitle" xml:space="preserve">
+    <value>هزینه های خود را در این جدول وارد کنید</value>
+  </data>
+  <data name="CostType" xml:space="preserve">
+    <value>نوع هزینه</value>
+  </data>
+  <data name="CreditTurnOver" xml:space="preserve">
+    <value>گردش بستانکار حساب</value>
+  </data>
+  <data name="CurrentGuaranties" xml:space="preserve">
+    <value>ضمانت های در جریان</value>
+  </data>
+  <data name="CurrentGuarantiesTitle" xml:space="preserve">
+    <value>وضعیت تسهیلاتی که ضمانت نموده اید را شرح دهید</value>
+  </data>
+  <data name="Earnings" xml:space="preserve">
+    <value>درآمد ها</value>
+  </data>
+  <data name="IncomeAmount" xml:space="preserve">
+    <value>مبلغ درآمد</value>
+  </data>
+  <data name="IncomeTitle" xml:space="preserve">
+    <value>درآمد های خود را در این جدول وارد کنید</value>
+  </data>
+  <data name="IncomeType" xml:space="preserve">
+    <value>نوع درآمد</value>
+  </data>
+  <data name="LenderOrg" xml:space="preserve">
+    <value>نام بانک/موسسه/فروشگاه تسهیلات دهنده</value>
+  </data>
+  <data name="LoanRecords" xml:space="preserve">
+    <value>تسهیلات قبلی</value>
+  </data>
+  <data name="LoanRecordsTitle" xml:space="preserve">
+    <value>چنانچه از موسسه یا سایر بانک ها و موسسات مالی و اعتباری تسهیلاتی دریافت نموده اید و یا خرید اقساطی انجام داده اید در جدول زیر قید فرمایید</value>
+  </data>
+  <data name="MovableFixedAssets" xml:space="preserve">
+    <value>دارائی های منقول و غیرمنقول</value>
+  </data>
+  <data name="MovableFixedAssetsTitle" xml:space="preserve">
+    <value>وضعیت دارایی های منقول و غیر منقول خود را در جدول زیر ذکر فرمایید</value>
+  </data>
+  <data name="RemainingAmount" xml:space="preserve">
+    <value>مانده بدهی</value>
+  </data>
+  <data name="SharesPercentage" xml:space="preserve">
+    <value>درصد سهام</value>
+  </data>
+  <data name="ApproximateValue" xml:space="preserve">
+    <value>ارزش تقریبی روز (ریال)</value>
+  </data>
+  <data name="BuildingSite" xml:space="preserve">
+    <value>عرصه (مترمربع)</value>
+  </data>
+  <data name="FoxNumber" xml:space="preserve">
+    <value>شماره فاکس</value>
+  </data>
+  <data name="Free" xml:space="preserve">
+    <value>آزاد</value>
+  </data>
+  <data name="Leased" xml:space="preserve">
+    <value>استجاری</value>
+  </data>
+  <data name="OnMortgage" xml:space="preserve">
+    <value>در رهن</value>
+  </data>
+  <data name="OnMortgageAmount" xml:space="preserve">
+    <value>مبلغ رهن (ریال)</value>
+  </data>
+  <data name="OnMortgageDate" xml:space="preserve">
+    <value>تاریخ رهن</value>
+  </data>
+  <data name="OnMortgageDuration" xml:space="preserve">
+    <value>مدت رهن (به سال)</value>
+  </data>
+  <data name="Ownership" xml:space="preserve">
+    <value>وضعیت مالکیت</value>
+  </data>
+  <data name="proprietary" xml:space="preserve">
+    <value>ملکی</value>
+  </data>
+  <data name="RentAmount" xml:space="preserve">
+    <value>مقدار اجاره (به ریال)</value>
+  </data>
+  <data name="StandingProperty" xml:space="preserve">
+    <value>اعیان (مترمربع)</value>
+  </data>
+  <data name="Surface" xml:space="preserve">
+    <value>مساحت (مترمربع)</value>
+  </data>
+  <data name="TitleDeed" xml:space="preserve">
+    <value>وضعیت سند</value>
+  </data>
+  <data name="ToolsMachinery" xml:space="preserve">
+    <value>ارزش تقریبی ماشین آلات روز (ریال)</value>
+  </data>
+  <data name="GoToLoan" xml:space="preserve">
+    <value>برای دیدن جزییات وام کلیک کنید</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>رویت</value>
+  </data>
+  <data name="JobStatus" xml:space="preserve">
+    <value>وضعیت اشتغال</value>
+  </data>
+  <data name="Assurance1" xml:space="preserve">
+    <value>درصد وثیقه نوع اول</value>
+  </data>
+  <data name="Assurance2" xml:space="preserve">
+    <value>درصد وثیقه نوع دوم</value>
+  </data>
+  <data name="SelectDateMsg" xml:space="preserve">
+    <value>تاریخ را وارد کنید</value>
+  </data>
+  <data name="BuisModelDM" xml:space="preserve">
+    <value>نام مدل داده کاوی برای رتبه بندی مشتریان حقوقی</value>
+  </data>
+  <data name="BuisModelJG" xml:space="preserve">
+    <value>نام مدل قضاوتی برای رتبه بندی مشتریان حقوقی</value>
+  </data>
+  <data name="RetailModelDM" xml:space="preserve">
+    <value>نام مدل داده کاوی برای رتبه بندی مشتریان حقیقی</value>
+  </data>
+  <data name="RetailModelJG" xml:space="preserve">
+    <value>نام مدل قضاوتی برای رتبه بندی مشتریان حقیقی</value>
+  </data>
+  <data name="ViewModelNames" xml:space="preserve">
+    <value>رویت نام مدل های استفاده شده در رتبه بندی</value>
+  </data>
+  <data name="AccountsInfo" xml:space="preserve">
+    <value>حساب های بانکی</value>
+  </data>
+  <data name="AssetInfo" xml:space="preserve">
+    <value>اطلاعات دارایی</value>
+  </data>
+  <data name="CostInfo" xml:space="preserve">
+    <value>اطلاعات هزینه</value>
+  </data>
+  <data name="CreateDate" xml:space="preserve">
+    <value>تاریخ ایجاد</value>
+  </data>
+  <data name="FacilityInfo" xml:space="preserve">
+    <value>وام های در جریان</value>
+  </data>
+  <data name="GuarantyInfo" xml:space="preserve">
+    <value>ضمانت های در جریان</value>
+  </data>
+  <data name="IncomeInfo" xml:space="preserve">
+    <value>اطلاعات درآمد</value>
+  </data>
+  <data name="LoanInfo" xml:space="preserve">
+    <value>اطلاعات وام</value>
+  </data>
+  <data name="SpouseInfo" xml:space="preserve">
+    <value>اطلاعات همسر</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>ملاحظات</value>
+  </data>
+  <data name="Kind" xml:space="preserve">
+    <value>نوع</value>
+  </data>
+  <data name="Payment" xml:space="preserve">
+    <value>اقساط ماهیانه / سررسیدی</value>
+  </data>
+  <data name="Case" xml:space="preserve">
+    <value>مورد جستجو</value>
+  </data>
+  <data name="Corporate" xml:space="preserve">
+    <value>حقوقی</value>
+  </data>
+  <data name="CustomerType" xml:space="preserve">
+    <value>نوع مشتری</value>
+  </data>
+  <data name="Database" xml:space="preserve">
+    <value>بانک اطلاعاتی</value>
+  </data>
+  <data name="Individual" xml:space="preserve">
+    <value>حقیقی</value>
+  </data>
+  <data name="SearchPhrase" xml:space="preserve">
+    <value>جمله</value>
+  </data>
+  <data name="TransferData" xml:space="preserve">
+    <value>انتقال اطلاعات</value>
+  </data>
+  <data name="ViewInformation" xml:space="preserve">
+    <value>رویت اطلاعات</value>
+  </data>
+  <data name="CustomersHistory" xml:space="preserve">
+    <value>اطلاعات پیشین مشتریان</value>
+  </data>
+  <data name="Mehr" xml:space="preserve">
+    <value>مهر</value>
+  </data>
+  <data name="Negin" xml:space="preserve">
+    <value>نگین</value>
+  </data>
+  <data name="ProbabilityofDefault" xml:space="preserve">
+    <value>احتمال نکول</value>
+  </data>
+  <data name="SearchPlace" xml:space="preserve">
+    <value>محل </value>
+  </data>
+  <data name="AddToList" xml:space="preserve">
+    <value>افزودن به لیست</value>
+  </data>
+  <data name="CorpAssessMsg" xml:space="preserve">
+    <value>در صورت تمایل به رتبه بندی چند شرکت حقوقی، پس از وارد کردن شماره ثبت ، آنها را به جدول اضافه فرمایید</value>
+  </data>
+  <data name="DeleteFromList" xml:space="preserve">
+    <value>حذف از لیست</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>چاپ</value>
+  </data>
+  <data name="Ranking" xml:space="preserve">
+    <value>رتبه بندی</value>
+  </data>
+  <data name="RetailAssessMsg" xml:space="preserve">
+    <value>در صورت تمایل به رتبه بندی چند مشتری، پس از وارد کردن کد ملی ، آنها را به جدول اضافه فرمایید</value>
+  </data>
+  <data name="StateCode" xml:space="preserve">
+    <value>کد استان</value>
+  </data>
+  <data name="CreateInformation" xml:space="preserve">
+    <value>ایجاد</value>
+  </data>
+  <data name="BranchName" xml:space="preserve">
+    <value>نام شعبه</value>
+  </data>
+  <data name="StateName" xml:space="preserve">
+    <value>نام استان</value>
+  </data>
+  <data name="FacilityType" xml:space="preserve">
+    <value>نوع تسهیلات</value>
+  </data>
+  <data name="ApprovedAmount" xml:space="preserve">
+    <value>مبلغ وام مصوب</value>
+  </data>
+  <data name="ApprovedLoanType" xml:space="preserve">
+    <value>نوع وام مصوب</value>
+  </data>
+  <data name="ApprovedStatus" xml:space="preserve">
+    <value>وضعیت مصوبه</value>
+  </data>
+  <data name="CollateralInformation" xml:space="preserve">
+    <value>اطلاعات وثیقه</value>
+  </data>
+  <data name="CustomerInfo" xml:space="preserve">
+    <value>اطلاعات مشتری</value>
+  </data>
+  <data name="Rejected" xml:space="preserve">
+    <value>عدم تایید</value>
+  </data>
+  <data name="SaveApproval" xml:space="preserve">
+    <value>ثبت مصوبه</value>
+  </data>
+  <data name="Prediction" xml:space="preserve">
+    <value>پیش بینی</value>
+  </data>
+  <data name="Age" xml:space="preserve">
+    <value>سن</value>
+  </data>
+  <data name="ActivityType" xml:space="preserve">
+    <value>نوع فعالیت</value>
+  </data>
+  <data name="BourseMember" xml:space="preserve">
+    <value>عضو بورس</value>
+  </data>
+  <data name="CenterBureau" xml:space="preserve">
+    <value>دفتر مرکزی</value>
+  </data>
+  <data name="Factory" xml:space="preserve">
+    <value>کارخانه</value>
+  </data>
+  <data name="InitialCapital" xml:space="preserve">
+    <value>سرمایه اولیه</value>
+  </data>
+  <data name="Loan" xml:space="preserve">
+    <value>مبلغ وام</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>تاریخ پایان</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>تاریخ شروع</value>
+  </data>
+  <data name="DBInsert" xml:space="preserve">
+    <value>دستور درج در پایگاه اطلاعاتی</value>
+  </data>
+  <data name="LogTime" xml:space="preserve">
+    <value>زمان اعتبارسنجی</value>
+  </data>
+  <data name="Model" xml:space="preserve">
+    <value>نام مدل</value>
+  </data>
+  <data name="RankingRecord" xml:space="preserve">
+    <value>سابقه رتبه بندی</value>
+  </data>
+  <data name="MatchContains" xml:space="preserve">
+    <value>دارای بخشی</value>
+  </data>
+  <data name="MatchEqual" xml:space="preserve">
+    <value>برابر باشد با</value>
+  </data>
+  <data name="MatchStarts" xml:space="preserve">
+    <value>شروع شود با</value>
+  </data>
+  <data name="EnterValue" xml:space="preserve">
+    <value>مقدار این فیلد مشخص نشده، لطفا یک مقدار برای آن وارد نمایید </value>
+  </data>
+  <data name="MsgNoAssess" xml:space="preserve">
+    <value>نتیجه اعتبارسنجی قابل دسترسی نمی باشد</value>
+  </data>
+  <data name="SelectMaturityDateMsg" xml:space="preserve">
+    <value>تاریخ سررسید</value>
+  </data>
+  <data name="StrDocName1" xml:space="preserve">
+    <value>روزنامه رسمی</value>
+  </data>
+  <data name="StrDocName2" xml:space="preserve">
+    <value>ترازنامه آزمایشی</value>
+  </data>
+  <data name="StrDocName3" xml:space="preserve">
+    <value>ترازنامه کامل</value>
+  </data>
+  <data name="StrDocName4" xml:space="preserve">
+    <value>صورت سود و زیان</value>
+  </data>
+  <data name="StrDocName5" xml:space="preserve">
+    <value>سند افتتاحیه</value>
+  </data>
+  <data name="StrDocName6" xml:space="preserve">
+    <value>فهرست سهامداران</value>
+  </data>
+  <data name="StrLoanRequest" xml:space="preserve">
+    <value>درخواست وام جدید</value>
+  </data>
+  <data name="MovableFixedAccountsRecordsTitle" xml:space="preserve">
+    <value>MovableFixedAccountsRecordsTitle</value>
+  </data>
+</root>
